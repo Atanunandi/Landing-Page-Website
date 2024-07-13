@@ -1,0 +1,135 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+.header {
+    background: #333;
+    color: #fff;
+    padding: 1em 0;
+}
+
+.header h1 {
+    float: left;
+}
+
+.header .navbar {
+    float: right;
+}
+
+.header .navbar ul {
+    list-style: none;
+}
+
+.header .navbar ul li {
+    display: inline;
+    margin-left: 20px;
+}
+
+.header .navbar ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.hero {
+    background: url('fruit-hero.jpg') no-repeat center center/cover;
+    color: #fff;
+    text-align: center;
+    padding: 100px 0;
+}
+
+.hero h2 {
+    font-size: 3em;
+}
+
+.hero p {
+    font-size: 1.2em;
+}
+
+.hero .btn {
+    background: #ff6347;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 1.2em;
+}
+
+.about, .products, .contact {
+    padding: 50px 0;
+    text-align: center;
+}
+
+.about p, .contact p {
+    font-size: 1.1em;
+    line-height: 1.5em;
+}
+
+.products .product-grid {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.products .product-item {
+    flex: 1;
+    margin: 20px;
+    text-align: center;
+}
+
+.products .product-item img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.products .product-item h3 {
+    margin-top: 10px;
+    font-size: 1.5em;
+}
+
+.products .product-item p {
+    margin-top: 5px;
+    font-size: 1em;
+}
+
+.contact form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contact form input, .contact form textarea {
+    width: 80%;
+    margin: 10px 0;
+    padding: 10px;
+    font-size: 1em;
+}
+
+.contact form .btn {
+    background: #ff6347;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 1.2em;
+}
+
+.footer {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+    margin-top: 20px;
+}
